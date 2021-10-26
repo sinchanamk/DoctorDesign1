@@ -5,6 +5,7 @@ import 'package:doctordes/Screens/notification.dart';
 import 'package:doctordes/Screens/search.dart';
 import 'package:flutter/material.dart';
 
+import 'Bottom_Nav/bottom.dart';
 import 'Screens/calender_agenda.dart';
 import 'Screens/doctorhome.dart';
 import 'Screens/task.dart';
@@ -21,11 +22,11 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return  MaterialApp(
       
       debugShowCheckedModeBanner: false,
-      home:NotificationScreen()
-     // DoctorHome()
+      home://NotificationScreen()
+     BottomBarScreen(),
           );
   }
 }
